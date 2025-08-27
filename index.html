@@ -3,109 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Desplegable</title>
+    <title>Mi Primera Página</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #E0BBE4; /* Fondo lila */
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Estilos del menú */
-        nav {
-            background-color: #2c3e50;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 16px 20px;
-            text-decoration: none;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-
-        nav a:hover {
-            background-color: #1abc9c;
-        }
-
-        /* Menú desplegable */
-        .dropdown {
-            float: left;
-            overflow: hidden;
-        }
-
-        .dropdown .dropbtn {
-            font-size: 18px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 16px 20px;
-            background-color: #2c3e50;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .dropdown:hover .dropbtn {
-            background-color: #1abc9c;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #34495e;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #1abc9c;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        /* Estilos del contenido */
-        .content {
+            background-color: #f0f4f8;
             text-align: center;
             padding: 50px;
+        }
+        h1 {
+            color: #4a4a8e;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #4a4a8e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        a:hover {
+            background-color: #6a6ab8;
         }
     </style>
 </head>
 <body>
-
-    <!-- Menú de navegación -->
-    <nav>
-        <a href="#home">Inicio</a>
-        <div class="dropdown">
-            <button class="dropbtn">Páginas</button>
-            <div class="dropdown-content">
-                <a href="pagina1.html">Página 1</a>
-                <a href="pagina2.html">Página 2</a>
-                <a href="pagina3.html">Página 3</a>
-                <a href="pagina4.html">Página 4</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Contenido principal -->
-    <div class="content">
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Selecciona una página desde el menú desplegable para ver el contenido.</p>
-    </div>
-
+    <h1>¡Bienvenido a mi página web!</h1>
+    <p>Este es un ejemplo sencillo de una página creada con HTML y un poco de CSS.</p>
+    <a href="https://www.google.com" target="_blank">Ir a Google</a>
 </body>
 </html>
